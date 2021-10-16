@@ -2,7 +2,7 @@ import { ADD_PLACE } from './places-actions';
 import Place from '../models/place';
 
 const initialState = {
-  places: [],
+  places: []
 };
 
 export default (state = initialState, action) => {
@@ -14,10 +14,9 @@ export default (state = initialState, action) => {
         action.placeData.image
       );
       return {
-        places: state.places.concat(newPlace),
+        places: state.places.concat(newPlace)
       };
     default:
       return state;
   }
-  return state;
 };
