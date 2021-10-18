@@ -23,11 +23,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.fahmialfareza.greatplacesapp"
-    },
-    "android": {
-      "package": "com.fahmialfareza.greatplacesapp"
+      "supportsTablet": true
     }
   }
 }
